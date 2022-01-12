@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Oswald&family=Sacramento&display=swap');
+.body_cont {
+    padding: 5%;
+    width: 500px;
+    background-image: linear-gradient(45deg, #FBDA61 10%, #FF5ACD 90%);
+    color: black;
+    border-radius: 20px;
+}
+
+.content {
+    font-size: x-large;
+    font-family: 'Cinzel', serif;
+}
+
+.author {
+    margin-top: 5px;
+    text-align: right;
+    font-weight: 900;
+    font-family: 'Sacramento', cursive;
+}
+
+.buttons {
+    height: 60px;
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #eee;
+    border: none;
+    padding: 8px 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 5px #dfd9d9;
+    cursor: pointer;
+}
+
+button:active {
+    color: white;
+    box-shadow: 0 5px #dfd9d9;
+    transform: translateY(0.2rem);
+}
+
+button:hover {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 2px #bcb4b4;
+}
+
+@media only screen and (max-width:768px) {
+    .body_cont {
+        width: 300px;
+    }
+}
